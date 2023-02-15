@@ -1,4 +1,5 @@
 <template>
+<Head title="Login" />
     <div class="auth-page-wrapper pt-5">
         <div class="auth-one-bg-position auth-one-bg">
             <div class="bg-overlay"></div>
