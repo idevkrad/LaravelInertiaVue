@@ -6982,7 +6982,6 @@ var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
   var _component_b_button = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-button");
-  var _component_b_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-link");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("header", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("---------------------"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     to: "/",
     "class": "logo logo-dark"
@@ -7048,8 +7047,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [_hoisted_30, _hoisted_31];
     }),
     _: 1 /* STABLE */
-  }), _hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Link class=\"dropdown-item\" to=\"/pages/profile\"><i\r\n                                    class=\"mdi mdi-wallet text-muted fs-16 align-middle me-1\"></i>\r\n                                <span class=\"align-middle\">Balance : <b>$5971.67</b></span>\r\n                            </Link>\r\n                            <Link class=\"dropdown-item\" to=\"/pages/profile-setting\">\r\n                                <b-badge variant=\"soft-success\" class=\"bg-soft-success text-success mt-1 float-end\">New</b-badge><i\r\n                                    class=\"mdi mdi-cog-outline text-muted fs-16 align-middle me-1\"></i>\r\n                                <span class=\"align-middle\">Settings</span>\r\n                            </Link>\r\n                            <Link class=\"dropdown-item\" to=\"/auth/lockscreen-basic\"><i\r\n                                    class=\"mdi mdi-lock text-muted fs-16 align-middle me-1\"></i>\r\n                                <span class=\"align-middle\">Lock screen</span>\r\n                            </Link> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+  }), _hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Link class=\"dropdown-item\" to=\"/pages/profile\"><i\r\n                                    class=\"mdi mdi-wallet text-muted fs-16 align-middle me-1\"></i>\r\n                                <span class=\"align-middle\">Balance : <b>$5971.67</b></span>\r\n                            </Link>\r\n                            <Link class=\"dropdown-item\" to=\"/pages/profile-setting\">\r\n                                <b-badge variant=\"soft-success\" class=\"bg-soft-success text-success mt-1 float-end\">New</b-badge><i\r\n                                    class=\"mdi mdi-cog-outline text-muted fs-16 align-middle me-1\"></i>\r\n                                <span class=\"align-middle\">Settings</span>\r\n                            </Link>\r\n                            <Link class=\"dropdown-item\" to=\"/auth/lockscreen-basic\"><i\r\n                                    class=\"mdi mdi-lock text-muted fs-16 align-middle me-1\"></i>\r\n                                <span class=\"align-middle\">Lock screen</span>\r\n                            </Link> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     "class": "dropdown-item",
+    method: "post",
+    as: "button",
     href: "/logout"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {

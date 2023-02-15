@@ -580,10 +580,10 @@
                                     class="mdi mdi-lock text-muted fs-16 align-middle me-1"></i>
                                 <span class="align-middle">Lock screen</span>
                             </Link> -->
-                            <b-link class="dropdown-item" href="/logout"><i
+                            <Link class="dropdown-item" method="post" as="button" href="/logout"><i
                                     class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>
                                 <span class="align-middle" data-key="t-logout">Logout</span>
-                            </b-link>
+                            </Link>
                         </div>
                     </div>
 
